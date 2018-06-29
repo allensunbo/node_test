@@ -1,1 +1,9 @@
-console.log('my first module');
+module.exports = {
+  sayHelloInEnglish: function() {
+    return "HELLO";
+  },
+
+sayHelloInSpanish: function() {
+    return "Hola";
+  }
+};
